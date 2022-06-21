@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.main-header{
+    padding: 15px 0;
+}
+
+.main-header .nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header .nav .main-menu{
+    flex-grow: 1;
+}
+
+.nav .logo, .cta{
+    width: 20%;
+}
+
+/* HERO */
+.hero-content{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* SEZIONI 60-40 */
+.row{
+    display: flex;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.w-60{
+    flex-basis: 60%;
+}
+
+.w-40{
+    flex-basis: 40%;
+}
+
+.section-col-reverse{
+    flex-direction: row-reverse;
+}
+
+/* COL 100% */
+.w-100{
+    flex-basis: 100%;
+}
+
+/* FOOTER */
+footer #footer-widget{
+    padding: 10px 0 30px;
+    border-bottom: 1px solid white;
+}
+
+footer .row{
+    padding-top: 25px;
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
+
+.col-2{
+    flex-basis: calc(100% / 6);
+}
+
+#colophon .row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* COLORI DI SFONDO */
+.golden{
+    background-color: goldenrod;
+    border: 1px dashed black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.fucsia{
+    background-color: fuchsia;
+}
+
+.turchese{
+    background-color: dodgerblue;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.grigio{
+    background-color: #ccc;
+}
+
+.verde{
+    background-color: green;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+}
+
+.salmon{
+    background-color: salmon;
+}
+
+.cadet{
+    background-color: cadetblue;
+}
+
+/* DEBUG */
+.debug .row{
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+}
+
+.debug .container{
+    border: 2px solid salmon;
+    padding: 5px;
+}
+
+.debug .nav *{
+    border: 2px solid blue;
+    padding: 30px;
+}
+
+.hero-content{
+    border: 2px solid goldenrod;
+    min-height: 400px;
+}
+
+.debug .col{
+    min-height: 250px;
+    border: 2px solid goldenrod;
+    padding: 30px;
+}
+
+.debug #tech .col{
+    min-height: 400px;
+}
+
+.debug footer{
+    background-color: #333;
+}
+
+.debug header{
+    background-color: cornflowerblue;
+}
+
+.debug #colophon .container *{
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.debug .section{
+    border: 2px solid green;
+}
