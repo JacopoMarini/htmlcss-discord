@@ -107,6 +107,10 @@ button{
     flex-direction: row-reverse;
 }
 
+.col-60-h2{
+    padding-top: 40px;
+}
+
 .w-60{
     flex-basis: 60%;
 }
@@ -114,8 +118,6 @@ button{
 .w-40{
     flex-basis: 40%;
 }
-
-
 
 .section-col-reverse{
     flex-direction: row-reverse;
@@ -223,6 +225,15 @@ footer .row{
     margin-bottom: 20px;
 }
 
+.logo-2{
+    padding-top: 20px;
+}
+
+.social{
+    width: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
 
 /* IMMAGINI DI SFONDO */
 #hero{
