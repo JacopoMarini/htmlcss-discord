@@ -28,20 +28,27 @@
     width: 20%;
 }
 
+.logo{
+    margin-left: 70px;
+}
+
 .cta{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 #accedi{
    padding: 20px;
 }
 
+
 ul, li, menu{
     display: inline-block;
-    text-align: center;
     color: white;
     padding: 5px 20px;
     font-family:Helvetica;
-    }
+    margin: 0 auto;
+}
 
 #accedi{
     padding: 5px;
@@ -52,20 +59,20 @@ ul, li, menu{
 
 /* HERO */
 .hero-content{
-    margin: 0 auto;
-    max-width: 70%;
+    margin: 100px auto;
+    max-width: 60%;
 }
 
 .hero-content>h1{
     text-align: center;
     color: white;
     font-family: Helvetica;
-    margin: 90px 100px 0 90px;
+    margin-bottom: 30px;
 }
 
-.hero-p{
+.generic-p{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 50px;
     color: white;
     font-family: Helvetica;
@@ -108,15 +115,18 @@ button{
     flex-basis: 40%;
 }
 
+
+
 .section-col-reverse{
     flex-direction: row-reverse;
 }
 
-h2{
+.col-40-h2{
     font-family: Helvetica;
     text-align: left;
     margin-top: 50px;
     margin-right: 100px;
+    padding-top: 30px;
 }
 
 .col-40-p{
@@ -124,11 +134,32 @@ h2{
     margin-right: 100px;
     margin-top: 30px;
     font-size: 14px;
+    padding-top: 30px;
 }
 
 /* COL 100% */
 .w-100{
     flex-basis: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.col-100-center{
+    text-align: center;
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.w-p, .w-100{
+    font-family: Helvetica;
+
+}
+
+.w-p{
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* FOOTER */
@@ -136,6 +167,30 @@ footer #footer-widget{
     padding: 10px 0 30px;
     border-bottom: 1px solid white;
 }
+
+.footer-title, .footer-main-title{
+    color: cornflowerblue;
+    font-family: Helvetica;
+}
+
+#italia{
+    width: 20px;
+}
+
+.footer-item{
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.italiano{
+    padding-top: 20px;
+    color: white;
+    font-family: Helvetica;
+}
+
 
 footer .row{
     padding-top: 25px;
@@ -160,6 +215,15 @@ footer .row{
     padding-bottom: 30px;
 }
 
+.scarica{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* IMMAGINI DI SFONDO */
 #hero{
     background-image: url("/img/jumbo.png");
@@ -172,54 +236,10 @@ header{
     background-color: #255ee9;
 }
 
-/* .golden{
-    background-color: goldenrod;
-} */
-
-/* DEBUG */
-.debug .row{
-    border: 1px solid cornflowerblue;
-    padding: 10px;
+#tech, .grey{
+    background-color: #eee;
 }
 
-.debug .container{
-    border: 2px solid salmon;
-    padding: 5px;
+footer{
+    background-color: #222;
 }
-
-/* .debug .nav *{
-    border: 2px solid blue;
-    padding: 30px;
-} */
-
-/* .hero-content{
-    border: 2px solid goldenrod;
-    min-height: 400px;
-} */
-
-.debug .col{
-    min-height: 250px;
-    border: 2px solid goldenrod;
-    padding: 30px;
-}
-
-.debug #tech .col{
-    min-height: 400px;
-}
-
-.debug footer{
-    background-color: #333;
-}
-
-/* .debug header{
-    background-color: cornflowerblue;
-} */
-
-.debug #colophon .container *{
-    padding: 20px;
-    border: 2px solid white;
-}
-
-/* .debug .section{
-    border: 2px solid green;
-} */
