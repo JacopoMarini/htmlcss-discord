@@ -28,6 +28,18 @@
     width: 20%;
 }
 
+ul, li, menu{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    padding: 5px 20px;
+    }
+
+#accedi{
+    padding: 10px;
+}
+
 /* HERO */
 .hero-content{
     margin: 0 auto;
@@ -89,46 +101,20 @@ footer .row{
     padding-bottom: 30px;
 }
 
+/* IMMAGINI DI SFONDO */
+#hero{
+    background-image: url("/img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* COLORI DI SFONDO */
+header{
+    background-color: #255ee9;
+}
+
 .golden{
     background-color: goldenrod;
-    border: 1px dashed black;
-}
-
-.blue{
-    background-color: blue;
-}
-
-.fucsia{
-    background-color: fuchsia;
-}
-
-.turchese{
-    background-color: dodgerblue;
-}
-
-.rosa{
-    background-color: pink;
-}
-
-.grigio{
-    background-color: #ccc;
-}
-
-.verde{
-    background-color: green;
-}
-
-.aquamarine{
-    background-color: aquamarine;
-}
-
-.salmon{
-    background-color: salmon;
-}
-
-.cadet{
-    background-color: cadetblue;
 }
 
 /* DEBUG */
@@ -142,10 +128,10 @@ footer .row{
     padding: 5px;
 }
 
-.debug .nav *{
+/* .debug .nav *{
     border: 2px solid blue;
     padding: 30px;
-}
+} */
 
 .hero-content{
     border: 2px solid goldenrod;
@@ -166,9 +152,9 @@ footer .row{
     background-color: #333;
 }
 
-.debug header{
+/* .debug header{
     background-color: cornflowerblue;
-}
+} */
 
 .debug #colophon .container *{
     padding: 20px;
