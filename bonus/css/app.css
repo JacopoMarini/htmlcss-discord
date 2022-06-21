@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.main-header{
+    padding: 15px 0;
+}
+
+.main-header .nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header .nav .main-menu{
+    flex-grow: 1;
+}
+
+.nav .logo, .cta{
+    width: 20%;
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+.cta{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+#accedi{
+   padding: 20px;
+}
+
+ul, li, menu{
+    display: inline-block;
+    color: white;
+    padding: 5px 20px;
+    font-family:Helvetica;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+li:hover{
+    background-color: lemonchiffon;
+    color: red;
+}
+
+button:hover{
+    background-color: lemonchiffon;
+    color: red;
+}
+
+.footer-item:hover{
+    background-color: lemonchiffon;
+    color: red;
+}
+
+#accedi{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+/* HERO */
+.hero-content{
+    margin: 100px auto;
+    max-width: 60%;
+}
+
+.hero-content>h1{
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    margin-bottom: 30px;
+}
+
+.generic-p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Helvetica;
+    margin: 30px 100px 30px 90px;
+}
+
+.buttons{
+    text-align: center;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 5px;
+}
+
+.button-b{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+/* SEZIONI 60-40 */
+.row{
+    display: flex;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.col-60-h2{
+    padding-top: 40px;
+}
+
+.w-60{
+    flex-basis: 60%;
+}
+
+.w-40{
+    flex-basis: 40%;
+}
+
+.section-col-reverse{
+    flex-direction: row-reverse;
+}
+
+.col-40-h2{
+    font-family: Helvetica;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+
+.col-40-p{
+    font-family: Helvetica;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+/* COL 100% */
+.w-100{
+    flex-basis: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.col-100-center{
+    text-align: center;
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.w-p, .w-100{
+    font-family: Helvetica;
+
+}
+
+.w-p{
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* FOOTER */
+footer #footer-widget{
+    padding: 10px 0 30px;
+    border-bottom: 1px solid white;
+}
+
+.footer-title, .footer-main-title{
+    color: cornflowerblue;
+    font-family: Helvetica;
+}
+
+#italia{
+    width: 20px;
+}
+
+.footer-item{
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.italiano{
+    padding-top: 20px;
+    color: white;
+    font-family: Helvetica;
+}
+
+
+footer .row{
+    padding-top: 25px;
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
+
+.col-2{
+    flex-basis: calc(100% / 6);
+}
+
+#colophon .row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.scarica{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-2{
+    padding-top: 20px;
+}
+
+.social{
+    width: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+/* IMMAGINI DI SFONDO */
+#hero{
+    background-image: url("/img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* COLORI DI SFONDO */
+header{
+    background-color: #255ee9;
+}
+
+#tech, .grey{
+    background-color: #eee;
+}
+
+footer{
+    background-color: #222;
+}
